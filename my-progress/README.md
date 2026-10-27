@@ -17,3 +17,4 @@ Max model in fp16: 2.1 GB - ~0.5 GB used by Windows - ~0.3 GB margin = ~1.3 GB /
 - [x] Phase 00 / 05 Jupyter Notebooks: `jupyter_ex1_timeit.ipynb`, `jupyter_ex2_csv_plot.ipynb` (kernel: `ai-course`)
 - [x] Phase 00 / 06 Python Environments: env_setup.sh passed, isolated numpy 1.26 vs 2.5, `pyproject_ex3.toml`, global install demo
 - [ ] Phase 00 / 07 Docker for AI: Docker Desktop + hello-world + GPU in container done; image build skipped (WSL crashes locally, Codespace disk too small) - return later
+- [x] Phase 00 / 08 Editor Setup: 13/13 extensions, settings merged, Ruff/Black preview on `editor_test.py`
