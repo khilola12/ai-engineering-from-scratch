@@ -3,3 +3,13 @@
 - [x] Phase 00 / 01 Dev Environment: Git, Python 3.12 (uv), Node.js 24, Rust 1.99, PyTorch (CPU)
 - [x] Phase 00 / 02 Git & Collaboration
 - Experiment branch: sinab ko'rish uchun alohida branch, main buzilmaydi
+- [x] Phase 00 / 03 GPU Setup & Cloud
+
+## GPU benchmark (GeForce GT 1030, 2 GB VRAM, driver 582.78, torch 2.14.1+cu126)
+
+| Matrix | CPU | GPU | Speedup |
+|--------|-----|-----|---------|
+| 5000x5000, run 2 | 0.514s | 0.322s | 1.6x |
+| 4000x4000 (gpu_check.py) | 0.331s | 0.189s | 2x |
+
+Max model in fp16: 2.1 GB - ~0.5 GB used by Windows - ~0.3 GB margin = ~1.3 GB / 2 bytes = ~650M parameters.
