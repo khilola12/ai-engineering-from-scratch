@@ -20,3 +20,4 @@ Max model in fp16: 2.1 GB - ~0.5 GB used by Windows - ~0.3 GB margin = ~1.3 GB /
 - [x] Phase 00 / 08 Editor Setup: 13/13 extensions, settings merged, Ruff/Black preview on `editor_test.py`
 - [x] Phase 00 / 09 Data Management: data_utils.py passed; `data_exercises.py` (MRPC, C4 stream, Parquet vs CSV, 70/15/15 split)
 - [x] Phase 00 / 10 Terminal & Shell: pipes/redirects on fake_train.log, tmux 3 panes in WSL (survived detach), aliases tested, ssh -G config check
+- [x] Phase 00 / 11 Linux for AI: `linux/linux_exercises.sh` in WSL (touch, chmod, ps, tmux, df/du, rsync, CRLF)

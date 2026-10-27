@@ -1,0 +1,3 @@
+# Bash skriptlar WSL/Linux uchun: qator oxiri doim LF (
+)
+*.sh text eol=lf
