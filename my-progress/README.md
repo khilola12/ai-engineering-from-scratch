@@ -13,3 +13,5 @@
 | 4000x4000 (gpu_check.py) | 0.331s | 0.189s | 2x |
 
 Max model in fp16: 2.1 GB - ~0.5 GB used by Windows - ~0.3 GB margin = ~1.3 GB / 2 bytes = ~650M parameters.
+- [ ] Phase 00 / 04 APIs & Keys: SDK installed, 401 error studied; real API call waits for a key
+- [x] Phase 00 / 05 Jupyter Notebooks: `jupyter_ex1_timeit.ipynb`, `jupyter_ex2_csv_plot.ipynb` (kernel: `ai-course`)

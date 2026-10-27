@@ -1,0 +1,5 @@
+size,device,seconds
+4000,CPU,0.331
+4000,GPU,0.189
+5000,CPU,0.514
+5000,GPU,0.322
