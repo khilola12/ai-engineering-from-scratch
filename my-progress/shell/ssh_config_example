@@ -1,0 +1,18 @@
+# 4-mashq: SSH config namunasi (localhost bilan sintaksis mashqi)
+# Haqiqiy ishlatish uchun bu blok ~/.ssh/config fayliga ko'chiriladi.
+# Eslatma: SSH config'da izoh faqat qator BOSHIDA bo'lishi mumkin.
+
+# qisqa nom: "ssh gpu"
+Host gpu
+    # haqiqiy manzil (serverning IP'si yoki domeni)
+    HostName localhost
+    # serverdagi foydalanuvchi nomi
+    User ADMIN
+    # SSH porti (standart 22)
+    Port 22
+    # parol o'rniga ishlatiladigan kalit fayl
+    IdentityFile ~/.ssh/id_ed25519
+    # serverdan GitHub'ga ham shu kalit bilan ulanish
+    ForwardAgent yes
+    # serverdagi Jupyter'ni (8888) o'z brauzeringizda localhost:8888 da ochish
+    LocalForward 8888 localhost:8888

@@ -1,0 +1,2 @@
+ls: cannot access 'mavjud_emas.txt': No such file or directory
+fake_train.log
