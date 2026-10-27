@@ -18,3 +18,4 @@ Max model in fp16: 2.1 GB - ~0.5 GB used by Windows - ~0.3 GB margin = ~1.3 GB /
 - [x] Phase 00 / 06 Python Environments: env_setup.sh passed, isolated numpy 1.26 vs 2.5, `pyproject_ex3.toml`, global install demo
 - [ ] Phase 00 / 07 Docker for AI: Docker Desktop + hello-world + GPU in container done; image build skipped (WSL crashes locally, Codespace disk too small) - return later
 - [x] Phase 00 / 08 Editor Setup: 13/13 extensions, settings merged, Ruff/Black preview on `editor_test.py`
+- [x] Phase 00 / 09 Data Management: data_utils.py passed; `data_exercises.py` (MRPC, C4 stream, Parquet vs CSV, 70/15/15 split)

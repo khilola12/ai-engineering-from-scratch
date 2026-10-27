@@ -140,3 +140,6 @@ projects/*/solution/demo-output/
 
 # Local compiled lesson binaries
 *.exe
+
+# Downloaded/converted data from my exercises
+my-progress/data_out/
