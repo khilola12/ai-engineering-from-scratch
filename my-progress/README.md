@@ -22,3 +22,8 @@ Max model in fp16: 2.1 GB - ~0.5 GB used by Windows - ~0.3 GB margin = ~1.3 GB /
 - [x] Phase 00 / 10 Terminal & Shell: pipes/redirects on fake_train.log, tmux 3 panes in WSL (survived detach), aliases tested, ssh -G config check
 - [x] Phase 00 / 11 Linux for AI: `linux/linux_exercises.sh` in WSL (touch, chmod, ps, tmux, df/du, rsync, CRLF)
 - [x] Phase 00 / 12 Debugging & Profiling: `debugging/` (isnan vs isfinite, cProfile 93% in data loading, tracemalloc, TensorBoard overfitting at epoch 20, pdb on GPU)
+- [x] Phase 00 / 13 Python for AI Engineering: 31/31 tests, `python/silent_bugs.py`, `python/python_exercises.py` (median, generator 1904x less memory, NumPy 102x faster, AST scan)
+
+## Phase 00 summary (2026-10-27)
+
+11/13 lessons fully done. Open: 04 APIs & Keys (needs API key), 07 Docker (image build failed: WSL crash locally, disk too small in Codespace).
